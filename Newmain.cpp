@@ -57,7 +57,7 @@ public:
 			}
 		}
 		//shuffle the deck
-		(deck.begin(), deck.end());
+		random_shuffle(deck.begin(), deck.end());
 	}
 
 	//check if deck is empty
